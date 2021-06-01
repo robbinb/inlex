@@ -1,0 +1,83 @@
+body, html {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2rem;
+  color: #2d3e50;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', sans-serif;
+  color: #2d3e50;
+  font-weight: 600;
+}
+
+p {
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+li {
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+.b__pad-70 {
+  padding-bottom: 70px;
+}
+
+.hero__header {
+  padding-top: 60px;
+}
+
+.hero p {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.off-white {
+  background-color: #FAF9F6;
+}
+
+.off-bwhite {
+  background-color: #f5f8fa;
+}
+
+.wave-container {
+  background: #FFF;
+}
+
+.wave-container > svg {
+  display: block;
+}
+
+.btn {
+  font-weight: 600;
+  padding: 12px 35px 12px;
+  text-transform: uppercase;
+  border-radius: 25px;
+  border: 0;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+
+.btn-primary {
+  background-color: #f7761f;
+}
+
+.btn-primary:hover {
+  background-color: #2EE59D;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+.btn:focus, .btn:active {
+  outline: none !important;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1) !important;
+}
+
