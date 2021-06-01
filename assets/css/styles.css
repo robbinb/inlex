@@ -34,7 +34,7 @@ li {
 
 .hero p {
   margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin-bottom: 2.5rem;
 }
 
 .off-white {
@@ -55,6 +55,7 @@ li {
 
 .btn {
   font-weight: 600;
+  letter-spacing: 1px;
   padding: 12px 35px 12px;
   text-transform: uppercase;
   border-radius: 25px;
